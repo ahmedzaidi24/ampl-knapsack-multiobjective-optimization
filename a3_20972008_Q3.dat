@@ -1,0 +1,49 @@
+set OBJ := V I;
+
+set OBJECTS := 
+milk butter noodle banana pumpkin 
+washingpowder cheese yoghurt
+steak fish coffee bread;
+
+
+param targets :=
+V 328
+I 19;
+
+param weights :=
+V 10
+I 1;
+
+
+
+param nrbags := 2;
+param wlimit := 3500;
+
+param weight := 
+milk     1000
+butter  500
+noodle  500
+banana  350
+pumpkin   800
+washingpowder  2000 
+cheese   700
+yoghurt  400
+steak   445
+fish   245
+coffee   900
+bread   400;
+
+
+param values  default 1 : V I :=  
+milk     10    .
+butter    16    .
+noodle   14   . 
+banana   23  . 
+pumpkin   7  . 
+washingpowder   24  .
+cheese   19   . 
+yoghurt   24   . 
+steak    17    . 
+fish        5   . 
+coffee   30    . 
+bread    12  .;  
